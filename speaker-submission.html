@@ -16,6 +16,19 @@
       <label for="full-name">Name</label>
       <input type="text" name="full-name" id="full-name">
     </div>
+
+    <div class="form-row">
+      <label for="email">Email</label>
+      <input type="email" name="email" id="email" placeholder="joe@example.com">
+    </div>
+
+    <fieldset class="legacy-form-row">
+      <legend>Type of Talk</legend>
+      <input type="radio" name="tak-type" id="talk-type" value="main-stage" />
+      <label for="tak-type1" class="radio-label">Main Stage</label>
+      <input type="radio" name="talk-type" id="talk-type2" value="workshop" checked />
+      <label for="talk-type2" class="radio-label">Workshop</label>
+    </fieldset>
   </form>
 </body>
 </html>
